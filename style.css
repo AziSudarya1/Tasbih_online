@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/mecca.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+}
+
+#contents {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(img/mesjid.jpg);
+  width: 25%;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 500px;
+  display: flex;
+  font-size: 34px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#count {
+  color: white;
+  display: flex;
+  font-size: 45px;
+}
+
+.bgContents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: burlywood;
+  height: 150px;
+  padding: 30px;
+  border-radius: 35px;
+}
+
+#parentButton {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  
+
+#incrementButton {
+  background-color: blue;
+  cursor: pointer;
+  margin-top: 30px;
+  color: white;
+  padding: 8px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+}
+}
+#resetButton {
+  background-color: red;
+  cursor: pointer;
+  margin-top: 30px;
+  color: white;
+  padding: 8px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(img/mecca.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+  }
+  #contents {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(img/mesjid.jpg);
+    width: 85%;
+    border-radius: 20px;
+    box-shadow: 6px 6px 9px white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    display: flex;
+    font-size: 34px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bgContents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: burlywood;
+    height: 150px;
+    width: 200px;
+    padding: 30px;
+    border-radius: 35px;
+  }
+
+  
+#parentButton {
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+  
+
+#incrementButton {
+  background-color: blue;
+  cursor: pointer;
+  margin-top: 50px;
+  color: white;
+  padding: 18px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+}
+}
+#resetButton {
+  background-color: red;
+  cursor: pointer;
+  margin-top: 50px;
+  color: white;
+  padding: 18px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+}
+
+}
